@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         var cities = ["fuyang","hefei","wuhan"]
+        var myCity = "Kyawn"
     }
 
     override func didReceiveMemoryWarning() {
