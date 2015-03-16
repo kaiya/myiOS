@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D23DCB981AB401370069711A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23DCB971AB401370069711A /* AppDelegate.swift */; };
+		D23DCB9A1AB401370069711A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23DCB991AB401370069711A /* ViewController.swift */; };
+		D23DCB9D1AB401370069711A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23DCB9B1AB401370069711A /* Main.storyboard */; };
+		D23DCB9F1AB401370069711A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23DCB9E1AB401370069711A /* Images.xcassets */; };
+		D23DCBA21AB401370069711A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D23DCBA01AB401370069711A /* LaunchScreen.xib */; };
+		D23DCBAE1AB401370069711A /* SMSTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23DCBAD1AB401370069711A /* SMSTestTests.swift */; };
+		D23DCBB81AB4015C0069711A /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23DCBB71AB4015C0069711A /* SMS_SDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D23DCBA81AB401370069711A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D23DCB8A1AB401370069711A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D23DCB911AB401370069711A;
+			remoteInfo = SMSTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D23DCB921AB401370069711A /* SMSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23DCB961AB401370069711A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D23DCB971AB401370069711A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D23DCB991AB401370069711A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D23DCB9C1AB401370069711A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D23DCB9E1AB401370069711A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D23DCBA11AB401370069711A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D23DCBA71AB401370069711A /* SMSTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23DCBAC1AB401370069711A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D23DCBAD1AB401370069711A /* SMSTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSTestTests.swift; sourceTree = "<group>"; };
+		D23DCBB71AB4015C0069711A /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D23DCB8F1AB401370069711A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23DCBB81AB4015C0069711A /* SMS_SDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23DCBA41AB401370069711A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D23DCB891AB401370069711A = {
+			isa = PBXGroup;
+			children = (
+				D23DCB941AB401370069711A /* SMSTest */,
+				D23DCBAA1AB401370069711A /* SMSTestTests */,
+				D23DCB931AB401370069711A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D23DCB931AB401370069711A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D23DCB921AB401370069711A /* SMSTest.app */,
+				D23DCBA71AB401370069711A /* SMSTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D23DCB941AB401370069711A /* SMSTest */ = {
+			isa = PBXGroup;
+			children = (
+				D23DCBB71AB4015C0069711A /* SMS_SDK.framework */,
+				D23DCB971AB401370069711A /* AppDelegate.swift */,
+				D23DCB991AB401370069711A /* ViewController.swift */,
+				D23DCB9B1AB401370069711A /* Main.storyboard */,
+				D23DCB9E1AB401370069711A /* Images.xcassets */,
+				D23DCBA01AB401370069711A /* LaunchScreen.xib */,
+				D23DCB951AB401370069711A /* Supporting Files */,
+			);
+			path = SMSTest;
+			sourceTree = "<group>";
+		};
+		D23DCB951AB401370069711A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D23DCB961AB401370069711A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D23DCBAA1AB401370069711A /* SMSTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D23DCBAD1AB401370069711A /* SMSTestTests.swift */,
+				D23DCBAB1AB401370069711A /* Supporting Files */,
+			);
+			path = SMSTestTests;
+			sourceTree = "<group>";
+		};
+		D23DCBAB1AB401370069711A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D23DCBAC1AB401370069711A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D23DCB911AB401370069711A /* SMSTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23DCBB11AB401370069711A /* Build configuration list for PBXNativeTarget "SMSTest" */;
+			buildPhases = (
+				D23DCB8E1AB401370069711A /* Sources */,
+				D23DCB8F1AB401370069711A /* Frameworks */,
+				D23DCB901AB401370069711A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMSTest;
+			productName = SMSTest;
+			productReference = D23DCB921AB401370069711A /* SMSTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D23DCBA61AB401370069711A /* SMSTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23DCBB41AB401370069711A /* Build configuration list for PBXNativeTarget "SMSTestTests" */;
+			buildPhases = (
+				D23DCBA31AB401370069711A /* Sources */,
+				D23DCBA41AB401370069711A /* Frameworks */,
+				D23DCBA51AB401370069711A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D23DCBA91AB401370069711A /* PBXTargetDependency */,
+			);
+			name = SMSTestTests;
+			productName = SMSTestTests;
+			productReference = D23DCBA71AB401370069711A /* SMSTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D23DCB8A1AB401370069711A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "K.Yawn Xoan";
+				TargetAttributes = {
+					D23DCB911AB401370069711A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D23DCBA61AB401370069711A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D23DCB911AB401370069711A;
+					};
+				};
+			};
+			buildConfigurationList = D23DCB8D1AB401370069711A /* Build configuration list for PBXProject "SMSTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D23DCB891AB401370069711A;
+			productRefGroup = D23DCB931AB401370069711A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D23DCB911AB401370069711A /* SMSTest */,
+				D23DCBA61AB401370069711A /* SMSTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D23DCB901AB401370069711A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23DCB9D1AB401370069711A /* Main.storyboard in Resources */,
+				D23DCBA21AB401370069711A /* LaunchScreen.xib in Resources */,
+				D23DCB9F1AB401370069711A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23DCBA51AB401370069711A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D23DCB8E1AB401370069711A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23DCB9A1AB401370069711A /* ViewController.swift in Sources */,
+				D23DCB981AB401370069711A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23DCBA31AB401370069711A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23DCBAE1AB401370069711A /* SMSTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D23DCBA91AB401370069711A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D23DCB911AB401370069711A /* SMSTest */;
+			targetProxy = D23DCBA81AB401370069711A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D23DCB9B1AB401370069711A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23DCB9C1AB401370069711A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D23DCBA01AB401370069711A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23DCBA11AB401370069711A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D23DCBAF1AB401370069711A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D23DCBB01AB401370069711A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D23DCBB21AB401370069711A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMSTest",
+				);
+				INFOPLIST_FILE = SMSTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D23DCBB31AB401370069711A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMSTest",
+				);
+				INFOPLIST_FILE = SMSTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D23DCBB51AB401370069711A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SMSTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSTest.app/SMSTest";
+			};
+			name = Debug;
+		};
+		D23DCBB61AB401370069711A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SMSTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSTest.app/SMSTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D23DCB8D1AB401370069711A /* Build configuration list for PBXProject "SMSTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23DCBAF1AB401370069711A /* Debug */,
+				D23DCBB01AB401370069711A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23DCBB11AB401370069711A /* Build configuration list for PBXNativeTarget "SMSTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23DCBB21AB401370069711A /* Debug */,
+				D23DCBB31AB401370069711A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D23DCBB41AB401370069711A /* Build configuration list for PBXNativeTarget "SMSTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23DCBB51AB401370069711A /* Debug */,
+				D23DCBB61AB401370069711A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D23DCB8A1AB401370069711A /* Project object */;
+}
