@@ -16,26 +16,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0.png" translatesAutoresizingMaskIntoConstraints="NO" id="o0T-fa-jXz">
-                                <rect key="frame" x="50" y="162" width="180" height="180"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OfK-9f-UWX">
+                                <rect key="frame" x="211" y="173" width="180" height="180"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K7B-Kb-Hzg">
-                                <rect key="frame" x="73" y="66" width="134" height="73"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K7B-Kb-Hzg">
+                                <rect key="frame" x="233" y="68" width="134" height="73"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VG0-Ra-Zbx">
-                                <rect key="frame" x="50" y="384" width="181" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VG0-Ra-Zbx">
+                                <rect key="frame" x="210" y="420" width="181" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="65"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.7667452458416868" green="0.67279673957399599" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.82321567704059018" green="0.61879365013641241" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="OfK-9f-UWX" firstAttribute="top" secondItem="K7B-Kb-Hzg" secondAttribute="bottom" constant="10" id="6JE-gl-awb"/>
+                            <constraint firstAttribute="centerX" secondItem="VG0-Ra-Zbx" secondAttribute="centerX" constant="-0.5" id="8bo-RB-Nmw"/>
+                            <constraint firstAttribute="centerX" secondItem="K7B-Kb-Hzg" secondAttribute="centerX" id="AMr-O5-J8j"/>
+                            <constraint firstItem="K7B-Kb-Hzg" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="10" id="BnJ-QG-cxB"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="VG0-Ra-Zbx" secondAttribute="bottom" constant="10" id="PYe-Jw-Vas"/>
+                            <constraint firstItem="VG0-Ra-Zbx" firstAttribute="top" secondItem="OfK-9f-UWX" secondAttribute="bottom" constant="10" id="Xwi-R0-bn0"/>
+                            <constraint firstAttribute="centerX" secondItem="OfK-9f-UWX" secondAttribute="centerX" id="sDa-me-RQN"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="cityName" destination="K7B-Kb-Hzg" id="BXU-ah-ncz"/>
+                        <outlet property="image3" destination="OfK-9f-UWX" id="Vbg-Xa-cmu"/>
                         <outlet property="weatherNum" destination="VG0-Ra-Zbx" id="3uC-e2-96A"/>
                     </connections>
                 </viewController>
@@ -44,7 +54,4 @@
             <point key="canvasLocation" x="487" y="174"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="0.png" width="180" height="180"/>
-    </resources>
 </document>
