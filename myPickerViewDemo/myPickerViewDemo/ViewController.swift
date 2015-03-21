@@ -12,7 +12,7 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
     //数据源
     var provience = ["安徽","云南","广东","四川"]
     var city = ["安徽":["阜阳","芜湖","合肥","安庆"],"云南":["丽江","昆明","普洱","曲靖"],"广东":["广州","珠海","汕头","佛山"],"四川":["成都","绵阳","广元","宜宾"]]
-    var selectedValue = ""
+    var selectedValue = "安徽"
     @IBOutlet weak var myPickerView: UIPickerView!
     override func viewDidLoad() {
         super.viewDidLoad()
