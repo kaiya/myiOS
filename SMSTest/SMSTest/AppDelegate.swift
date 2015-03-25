@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import <SMS_SDK/SMS_SDK.h>
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
