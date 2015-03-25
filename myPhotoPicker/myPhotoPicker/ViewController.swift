@@ -10,11 +10,15 @@ import UIKit
 
 class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
     
-    var photoImageView = UIImageView(frame: CGRectMake(40, 120, 200, 200))
+    var photoImageView = UIImageView(frame: CGRectMake(40, 120, 150, 150))
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.photoImageView.layer.masksToBounds = true
+        self.photoImageView.layer.cornerRadius = self.photoImageView.bounds.size.width*0.5
+//        self.photoImageView.layer.borderWidth = 5.0
+//        self.photoImageView.layer.borderColor = UIColor.blackColor().CGColor
+        
         self.view.addSubview(photoImageView)
     }
 
@@ -27,14 +31,10 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
         self.presentViewController(photoPicker, animated: true, completion: nil)
     }
     
-    
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
 //        photoImageView.image = info[UIImagePickerControllerOriginalImage] as? UIImage
         photoImageView.image = info[UIImagePickerControllerEditedImage] as? UIImage
-//        NSLog(info[UIImagePickerControllerMediaURL])
-        println(info[UIImagePickerControllerReferenceURL])
-        
-        self.dismissViewControllerAnimated(false, completion: nil)
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
     
     override func didReceiveMemoryWarning() {
