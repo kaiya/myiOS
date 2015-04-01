@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var username: UITextField!
     @IBAction func SubmitClick(sender: AnyObject) {
         
+        
         var req = NSMutableURLRequest(URL: NSURL(string: "http://www.azfs.com.cn/Login/iossignup.php")!)
         req.HTTPMethod = "POST"
         req.HTTPBody = NSString(string: "username=\(username.text)&email=\(myEmail.text)&password=\(myPassword.text)&password-confirm=\(myPasswordConfirm.text)").dataUsingEncoding(NSUTF8StringEncoding)

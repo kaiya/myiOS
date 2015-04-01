@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D283E7DE1AC2B52C006AD217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283E7DD1AC2B52C006AD217 /* AppDelegate.swift */; };
+		D283E7E01AC2B52C006AD217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283E7DF1AC2B52C006AD217 /* ViewController.swift */; };
+		D283E7E31AC2B52C006AD217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D283E7E11AC2B52C006AD217 /* Main.storyboard */; };
+		D283E7E51AC2B52C006AD217 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D283E7E41AC2B52C006AD217 /* Images.xcassets */; };
+		D283E7E81AC2B52C006AD217 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D283E7E61AC2B52C006AD217 /* LaunchScreen.xib */; };
+		D283E7F41AC2B52D006AD217 /* TakePhotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283E7F31AC2B52D006AD217 /* TakePhotosTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D283E7EE1AC2B52D006AD217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D283E7D01AC2B52C006AD217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D283E7D71AC2B52C006AD217;
+			remoteInfo = TakePhotos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D283E7D81AC2B52C006AD217 /* TakePhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakePhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D283E7DC1AC2B52C006AD217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D283E7DD1AC2B52C006AD217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D283E7DF1AC2B52C006AD217 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D283E7E21AC2B52C006AD217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D283E7E41AC2B52C006AD217 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D283E7E71AC2B52C006AD217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D283E7ED1AC2B52D006AD217 /* TakePhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakePhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D283E7F21AC2B52D006AD217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D283E7F31AC2B52D006AD217 /* TakePhotosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakePhotosTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D283E7D51AC2B52C006AD217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D283E7EA1AC2B52D006AD217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D283E7CF1AC2B52C006AD217 = {
+			isa = PBXGroup;
+			children = (
+				D283E7DA1AC2B52C006AD217 /* TakePhotos */,
+				D283E7F01AC2B52D006AD217 /* TakePhotosTests */,
+				D283E7D91AC2B52C006AD217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D283E7D91AC2B52C006AD217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D283E7D81AC2B52C006AD217 /* TakePhotos.app */,
+				D283E7ED1AC2B52D006AD217 /* TakePhotosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D283E7DA1AC2B52C006AD217 /* TakePhotos */ = {
+			isa = PBXGroup;
+			children = (
+				D283E7DD1AC2B52C006AD217 /* AppDelegate.swift */,
+				D283E7DF1AC2B52C006AD217 /* ViewController.swift */,
+				D283E7E11AC2B52C006AD217 /* Main.storyboard */,
+				D283E7E41AC2B52C006AD217 /* Images.xcassets */,
+				D283E7E61AC2B52C006AD217 /* LaunchScreen.xib */,
+				D283E7DB1AC2B52C006AD217 /* Supporting Files */,
+			);
+			path = TakePhotos;
+			sourceTree = "<group>";
+		};
+		D283E7DB1AC2B52C006AD217 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D283E7DC1AC2B52C006AD217 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D283E7F01AC2B52D006AD217 /* TakePhotosTests */ = {
+			isa = PBXGroup;
+			children = (
+				D283E7F31AC2B52D006AD217 /* TakePhotosTests.swift */,
+				D283E7F11AC2B52D006AD217 /* Supporting Files */,
+			);
+			path = TakePhotosTests;
+			sourceTree = "<group>";
+		};
+		D283E7F11AC2B52D006AD217 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D283E7F21AC2B52D006AD217 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D283E7D71AC2B52C006AD217 /* TakePhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D283E7F71AC2B52D006AD217 /* Build configuration list for PBXNativeTarget "TakePhotos" */;
+			buildPhases = (
+				D283E7D41AC2B52C006AD217 /* Sources */,
+				D283E7D51AC2B52C006AD217 /* Frameworks */,
+				D283E7D61AC2B52C006AD217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakePhotos;
+			productName = TakePhotos;
+			productReference = D283E7D81AC2B52C006AD217 /* TakePhotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D283E7EC1AC2B52D006AD217 /* TakePhotosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D283E7FA1AC2B52D006AD217 /* Build configuration list for PBXNativeTarget "TakePhotosTests" */;
+			buildPhases = (
+				D283E7E91AC2B52D006AD217 /* Sources */,
+				D283E7EA1AC2B52D006AD217 /* Frameworks */,
+				D283E7EB1AC2B52D006AD217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D283E7EF1AC2B52D006AD217 /* PBXTargetDependency */,
+			);
+			name = TakePhotosTests;
+			productName = TakePhotosTests;
+			productReference = D283E7ED1AC2B52D006AD217 /* TakePhotosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D283E7D01AC2B52C006AD217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "K.Yawn Xoan";
+				TargetAttributes = {
+					D283E7D71AC2B52C006AD217 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D283E7EC1AC2B52D006AD217 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D283E7D71AC2B52C006AD217;
+					};
+				};
+			};
+			buildConfigurationList = D283E7D31AC2B52C006AD217 /* Build configuration list for PBXProject "TakePhotos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D283E7CF1AC2B52C006AD217;
+			productRefGroup = D283E7D91AC2B52C006AD217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D283E7D71AC2B52C006AD217 /* TakePhotos */,
+				D283E7EC1AC2B52D006AD217 /* TakePhotosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D283E7D61AC2B52C006AD217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D283E7E31AC2B52C006AD217 /* Main.storyboard in Resources */,
+				D283E7E81AC2B52C006AD217 /* LaunchScreen.xib in Resources */,
+				D283E7E51AC2B52C006AD217 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D283E7EB1AC2B52D006AD217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D283E7D41AC2B52C006AD217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D283E7E01AC2B52C006AD217 /* ViewController.swift in Sources */,
+				D283E7DE1AC2B52C006AD217 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D283E7E91AC2B52D006AD217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D283E7F41AC2B52D006AD217 /* TakePhotosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D283E7EF1AC2B52D006AD217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D283E7D71AC2B52C006AD217 /* TakePhotos */;
+			targetProxy = D283E7EE1AC2B52D006AD217 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D283E7E11AC2B52C006AD217 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D283E7E21AC2B52C006AD217 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D283E7E61AC2B52C006AD217 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D283E7E71AC2B52C006AD217 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D283E7F51AC2B52D006AD217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D283E7F61AC2B52D006AD217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D283E7F81AC2B52D006AD217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TakePhotos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D283E7F91AC2B52D006AD217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TakePhotos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D283E7FB1AC2B52D006AD217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TakePhotosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakePhotos.app/TakePhotos";
+			};
+			name = Debug;
+		};
+		D283E7FC1AC2B52D006AD217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TakePhotosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakePhotos.app/TakePhotos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D283E7D31AC2B52C006AD217 /* Build configuration list for PBXProject "TakePhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D283E7F51AC2B52D006AD217 /* Debug */,
+				D283E7F61AC2B52D006AD217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D283E7F71AC2B52D006AD217 /* Build configuration list for PBXNativeTarget "TakePhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D283E7F81AC2B52D006AD217 /* Debug */,
+				D283E7F91AC2B52D006AD217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D283E7FA1AC2B52D006AD217 /* Build configuration list for PBXNativeTarget "TakePhotosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D283E7FB1AC2B52D006AD217 /* Debug */,
+				D283E7FC1AC2B52D006AD217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D283E7D01AC2B52C006AD217 /* Project object */;
+}

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
+class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate,UIActionSheetDelegate {
     
     var photoImageView = UIImageView(frame: CGRectMake(40, 120, 150, 150))
     
@@ -16,23 +16,23 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
         super.viewDidLoad()
         self.photoImageView.layer.masksToBounds = true
         self.photoImageView.layer.cornerRadius = self.photoImageView.bounds.size.width*0.5
-//        self.photoImageView.layer.borderWidth = 5.0
-//        self.photoImageView.layer.borderColor = UIColor.blackColor().CGColor
+        //        self.photoImageView.layer.borderWidth = 5.0
+        //        self.photoImageView.layer.borderColor = UIColor.blackColor().CGColor
         
         self.view.addSubview(photoImageView)
     }
-
+    
     @IBAction func photoPicker(sender: AnyObject) {
-        
+      
         var photoPicker = UIImagePickerController()
         photoPicker.delegate = self
-        photoPicker.sourceType = .PhotoLibrary
+        photoPicker.sourceType = UIImagePickerControllerSourceType.Camera
         photoPicker.allowsEditing = true
         self.presentViewController(photoPicker, animated: true, completion: nil)
     }
     
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
-//        photoImageView.image = info[UIImagePickerControllerOriginalImage] as? UIImage
+        //        photoImageView.image = info[UIImagePickerControllerOriginalImage] as? UIImage
         photoImageView.image = info[UIImagePickerControllerEditedImage] as? UIImage
         self.dismissViewControllerAnimated(true, completion: nil)
     }
