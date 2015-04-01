@@ -121,6 +121,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ItF-Px-RUy">
+                                <rect key="frame" x="205" y="106" width="51" height="31"/>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -129,9 +132,11 @@
                             <constraint firstItem="I7f-yt-yw2" firstAttribute="top" secondItem="msa-lJ-akP" secondAttribute="bottom" constant="110" id="7Ct-0R-YaP"/>
                             <constraint firstAttribute="trailingMargin" secondItem="AwH-8c-PwD" secondAttribute="trailing" id="NpE-1l-JjD"/>
                             <constraint firstItem="msa-lJ-akP" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="60" id="PEU-O0-8kc"/>
+                            <constraint firstItem="ItF-Px-RUy" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="100" id="VaL-mx-Gid"/>
                             <constraint firstItem="I7f-yt-yw2" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="akz-W3-IAu"/>
                             <constraint firstAttribute="trailingMargin" secondItem="msa-lJ-akP" secondAttribute="trailing" id="gEh-B7-2Xy"/>
                             <constraint firstAttribute="trailingMargin" secondItem="I7f-yt-yw2" secondAttribute="trailing" id="hjt-tP-uDs"/>
+                            <constraint firstItem="ItF-Px-RUy" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="10" id="kKV-wc-Zc9"/>
                             <constraint firstItem="AwH-8c-PwD" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="t3z-w4-lLT"/>
                         </constraints>
                     </view>
@@ -157,7 +162,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <exit id="2kW-Jg-XqX" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2756" y="56"/>
+            <point key="canvasLocation" x="2700" y="56"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="O3v-Lc-Oez">
