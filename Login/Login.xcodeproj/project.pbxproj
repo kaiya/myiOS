@@ -15,6 +15,18 @@
 		D21321FB1AB6556D00D6E954 /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21321FA1AB6556D00D6E954 /* LoginTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		750014A8215274B1005012C3 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.swift;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# $(SWIFT_EXEC)\n";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXContainerItemProxy section */
 		D21321F51AB6556D00D6E954 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -124,6 +136,7 @@
 				D21321DD1AB6556D00D6E954 /* Resources */,
 			);
 			buildRules = (
+				750014A8215274B1005012C3 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -161,6 +174,8 @@
 				TargetAttributes = {
 					D21321DE1AB6556D00D6E954 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = DM9QD5WW5S;
+						ProvisioningStyle = Automatic;
 					};
 					D21321F31AB6556D00D6E954 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -294,6 +309,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -328,6 +344,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -336,7 +353,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (P4XREMZX86)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DM9QD5WW5S;
 				INFOPLIST_FILE = Login/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -344,6 +363,7 @@
 					"$(SDKROOT)/usr/lib/system",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -351,7 +371,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (P4XREMZX86)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DM9QD5WW5S;
 				INFOPLIST_FILE = Login/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -359,6 +381,7 @@
 					"$(SDKROOT)/usr/lib/system",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

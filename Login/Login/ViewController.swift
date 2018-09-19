@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var textField: UITextView!
     @IBAction func loginBtnClicked(sender: UIButton) {
         
+        
         var req = NSMutableURLRequest(URL: NSURL(string: "http://www.azfs.com.cn/Login/ioscheck.php")!)
         req.HTTPMethod = "POST"
         req.HTTPBody = NSString(string: "username=\(phoneNum.text)&password=\(password.text)").dataUsingEncoding(NSUTF8StringEncoding)
